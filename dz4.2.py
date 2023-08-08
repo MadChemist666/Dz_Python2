@@ -11,7 +11,6 @@ elif b == len(a):
 elif 0<b<len(a):
     c = a[b]+a[b-1]+a[b-2]
     print(f'Макс. кол-во ягод для куста {b} равно {c}')
-    print(len(a))
 else:
     print('Неверно указан куст')
 
